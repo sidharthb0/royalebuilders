@@ -1,0 +1,16 @@
+{
+  "title": "Royale Residency",
+  "category": "residential",
+  "location": "Whitefield, Bangalore",
+  "status": "Completed",
+  "year": "2023",
+  "area": "2,50,000 sq.ft.",
+  "units": "120 Units",
+  "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=85&auto=format",
+  "description": "A premium gated community offering 2 & 3 BHK luxury apartments with world-class amenities including a clubhouse, infinity pool, landscaped gardens, and a fully-equipped gymnasium. Designed for families seeking refined living in the heart of Bangalore's IT corridor.",
+  "gallery": [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=85&auto=format",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=85&auto=format"
+  ],
+  "order": 1
+}

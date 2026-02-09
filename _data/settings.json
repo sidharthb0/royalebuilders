@@ -1,0 +1,30 @@
+{
+  "company": {
+    "name": "Royale Builders & Developers",
+    "tagline": "Building Legacies in Concrete & Vision",
+    "logo": "",
+    "description": "Premium land developments, plotted layouts, and built spaces across Bangalore and Mysore."
+  },
+  "contact": {
+    "phone": "+91 98765 43210",
+    "email": "info@royalebuilders.com",
+    "address_bangalore": "123 MG Road, Bangalore\nKarnataka 560001, India",
+    "address_mysore": "456 Sayyaji Rao Road, Mysore\nKarnataka 570001, India",
+    "hours": "Monday – Saturday, 9:00 AM – 6:00 PM IST"
+  },
+  "about": {
+    "heading": "Crafting Spaces That Endure",
+    "para1": "Royale Builders & Developers has been at the forefront of real estate excellence in South India for nearly two decades. Founded on the principles of uncompromising quality, transparent dealings, and visionary design, we have shaped skylines across Bangalore and Mysore.",
+    "para2": "Our portfolio spans luxury residences, modern commercial complexes, and state-of-the-art industrial parks — each project a testament to our commitment to creating spaces that inspire and elevate.",
+    "image": ""
+  },
+  "stats": [
+    { "number": 25, "suffix": "", "label": "Projects Delivered" },
+    { "number": 2, "suffix": "M+", "label": "Sq. Ft. Developed" },
+    { "number": 18, "suffix": "", "label": "Years of Trust" },
+    { "number": 500, "suffix": "+", "label": "Happy Families" }
+  ],
+  "form": {
+    "formspree_id": ""
+  }
+}

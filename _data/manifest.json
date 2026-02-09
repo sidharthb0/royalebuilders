@@ -1,0 +1,19 @@
+{
+  "projects": [
+    "royale-meadows",
+    "royale-greens",
+    "royale-horizon",
+    "royale-residency",
+    "royale-heights",
+    "royale-villa-park",
+    "royale-business-hub",
+    "royale-trade-centre",
+    "royale-industrial-park",
+    "royale-logistics-hub"
+  ],
+  "team": [
+    "managing-director",
+    "director-operations",
+    "chief-architect"
+  ]
+}

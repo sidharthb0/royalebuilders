@@ -1,0 +1,135 @@
+backend:
+  name: github
+  repo: sidharthb0/royalebuilders.com
+  branch: main
+  base_url: https://sveltia-cms-auth.royalebuilders.com
+  # NOTE: We'll use Sveltia CMS Auth or a simple OAuth proxy.
+  # Simpler alternative: use the 'test-repo' backend for local testing,
+  # then switch to 'github' with an OAuth authenticator for production.
+
+# Where uploaded media files go
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+# Slug settings
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections:
+  # ==========================================
+  # PROJECTS
+  # ==========================================
+  - name: "projects"
+    label: "Projects"
+    label_singular: "Project"
+    folder: "_data/projects"
+    create: true
+    delete: true
+    extension: "json"
+    format: "json"
+    slug: "{{slug}}"
+    sortable_fields: ["title", "year", "category"]
+    summary: "{{title}} — {{category}} ({{status}})"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Land & Plots", value: "land" }
+          - { label: "Residential", value: "residential" }
+          - { label: "Commercial", value: "commercial" }
+          - { label: "Industrial", value: "industrial" }
+      - { label: "Location", name: "location", widget: "string" }
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options:
+          - { label: "Upcoming", value: "Upcoming" }
+          - { label: "Ongoing", value: "Ongoing" }
+          - { label: "Completed", value: "Completed" }
+      - { label: "Year", name: "year", widget: "string" }
+      - { label: "Built-Up Area", name: "area", widget: "string", hint: "e.g. 2,50,000 sq.ft." }
+      - { label: "Units / Scale", name: "units", widget: "string", hint: "e.g. 120 Units, 60 Villas" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Description", name: "description", widget: "text" }
+      - label: "Gallery Images"
+        name: "gallery"
+        widget: "list"
+        field: { label: "Image", name: "image", widget: "image" }
+      - { label: "Display Order", name: "order", widget: "number", default: 10, hint: "Lower numbers appear first" }
+
+  # ==========================================
+  # TEAM MEMBERS
+  # ==========================================
+  - name: "team"
+    label: "Team Members"
+    label_singular: "Team Member"
+    folder: "_data/team"
+    create: true
+    delete: true
+    extension: "json"
+    format: "json"
+    slug: "{{slug}}"
+    sortable_fields: ["name", "order"]
+    summary: "{{name}} — {{role}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Role / Title", name: "role", widget: "string" }
+      - { label: "Photo", name: "photo", widget: "image" }
+      - { label: "Bio (optional)", name: "bio", widget: "text", required: false }
+      - { label: "Display Order", name: "order", widget: "number", default: 10, hint: "Lower numbers appear first" }
+
+  # ==========================================
+  # SITE SETTINGS (single file)
+  # ==========================================
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "general"
+        label: "General Settings"
+        file: "_data/settings.json"
+        fields:
+          - label: "Company Info"
+            name: "company"
+            widget: "object"
+            fields:
+              - { label: "Company Name", name: "name", widget: "string", default: "Royale Builders & Developers" }
+              - { label: "Tagline", name: "tagline", widget: "string", default: "Building Legacies in Concrete & Vision" }
+              - { label: "Logo", name: "logo", widget: "image", required: false }
+              - { label: "Description", name: "description", widget: "text", default: "Premium residential, commercial & industrial developments across Bangalore and Mysore." }
+
+          - label: "Contact Details"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Phone", name: "phone", widget: "string", default: "+91 98765 43210" }
+              - { label: "Email", name: "email", widget: "string", default: "info@royalebuilders.com" }
+              - { label: "Bangalore Office Address", name: "address_bangalore", widget: "text" }
+              - { label: "Mysore Office Address", name: "address_mysore", widget: "text" }
+              - { label: "Office Hours", name: "hours", widget: "string", default: "Monday – Saturday, 9:00 AM – 6:00 PM IST" }
+
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string", default: "Crafting Spaces That Endure" }
+              - { label: "Paragraph 1", name: "para1", widget: "text" }
+              - { label: "Paragraph 2", name: "para2", widget: "text" }
+              - { label: "About Image", name: "image", widget: "image", required: false }
+
+          - label: "Statistics"
+            name: "stats"
+            widget: "list"
+            max: 4
+            fields:
+              - { label: "Number", name: "number", widget: "number" }
+              - { label: "Suffix", name: "suffix", widget: "string", required: false, hint: "e.g. M+, +, %" }
+              - { label: "Label", name: "label", widget: "string" }
+
+          - label: "Form Settings"
+            name: "form"
+            widget: "object"
+            fields:
+              - { label: "Formspree Form ID", name: "formspree_id", widget: "string", hint: "Get this from formspree.io", required: false }
