@@ -1,19 +1,19 @@
 {
   "projects": [
-    "royale-meadows",
-    "royale-greens",
-    "royale-horizon",
-    "royale-residency",
-    "royale-heights",
-    "royale-villa-park",
     "royale-business-hub",
-    "royale-trade-centre",
+    "royale-greens",
+    "royale-heights",
+    "royale-horizon",
     "royale-industrial-park",
-    "royale-logistics-hub"
+    "royale-logistics-hub",
+    "royale-meadows",
+    "royale-residency",
+    "royale-trade-centre",
+    "royale-villa-park"
   ],
   "team": [
-    "managing-director",
+    "chief-architect",
     "director-operations",
-    "chief-architect"
+    "managing-director"
   ]
 }
