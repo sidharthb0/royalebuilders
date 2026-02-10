@@ -2,27 +2,43 @@
   "company": {
     "name": "Royale Builders & Developers",
     "tagline": "Building Legacies in Concrete & Vision",
-    "logo": "",
+    "logo": "/images/uploads/RBD_HorizontalLogo_White.png",
     "description": "Premium land developments, plotted layouts, and built spaces across Bangalore and Mysore."
   },
   "contact": {
-    "phone": "+91 98765 43210",
-    "email": "info@royalebuilders.com",
-    "address_bangalore": "123 MG Road, Bangalore\nKarnataka 560001, India",
-    "address_mysore": "456 Sayyaji Rao Road, Mysore\nKarnataka 570001, India",
-    "hours": "Monday – Saturday, 9:00 AM – 6:00 PM IST"
+    "phone": "+91 99009 13132",
+    "email": "contact@royalebuilders.com",
+    "address_bangalore": "Vittal Mallya Road\nBangalore 560001\nIndia",
+    "address_mysore": "Opening soon.",
+    "hours": "Monday – Saturday, 10:00 AM – 6:30 PM"
   },
   "about": {
     "heading": "Crafting Spaces That Endure",
-    "para1": "Royale Builders & Developers has been at the forefront of real estate excellence in South India for nearly two decades. Founded on the principles of uncompromising quality, transparent dealings, and visionary design, we have shaped skylines across Bangalore and Mysore.",
-    "para2": "Our portfolio spans luxury residences, modern commercial complexes, and state-of-the-art industrial parks — each project a testament to our commitment to creating spaces that inspire and elevate.",
+    "para1": "Royale Builders & Developers specializes in land aggregation and strategic partnerships. For nearly four decades, we have facilitated large-scale projects by joining forces with India’s leading developers.",
+    "para2": "Today, our diversified portfolio includes land banks, residential layouts and apartments and our own commercial assets, with a growing presence in the development of industrial parks across India.",
     "image": ""
   },
   "stats": [
-    { "number": 25, "suffix": "", "label": "Projects Delivered" },
-    { "number": 2, "suffix": "M+", "label": "Sq. Ft. Developed" },
-    { "number": 18, "suffix": "", "label": "Years of Trust" },
-    { "number": 500, "suffix": "+", "label": "Happy Families" }
+    {
+      "number": 25,
+      "suffix": "",
+      "label": "Projects Delivered"
+    },
+    {
+      "number": 3,
+      "suffix": "M+",
+      "label": "Sq. Ft. Developed"
+    },
+    {
+      "number": 42,
+      "suffix": "",
+      "label": "Years of Trust"
+    },
+    {
+      "number": 4000,
+      "suffix": "+",
+      "label": "Happy Families"
+    }
   ],
   "form": {
     "formspree_id": ""
