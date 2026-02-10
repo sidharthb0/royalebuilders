@@ -585,11 +585,10 @@
         const c = s.contact;
         document.getElementById('contactDetails').innerHTML = `
             <div class="contact__info-block"><h3>Head Office</h3><p>${c.address_bangalore.replace(/\n/g, '<br>')}</p></div>
-            <div class="contact__info-block"><h3>Mysore Office</h3><p>${c.address_mysore.replace(/\n/g, '<br>')}</p></div>
             <div class="contact__info-block"><h3>Reach Us</h3><p><a href="tel:${c.phone.replace(/\s/g, '')}">${c.phone}</a><br><a href="mailto:${c.email}">${c.email}</a></p></div>
             <div class="contact__info-block"><h3>Office Hours</h3><p>${c.hours}</p></div>
         `;
-
+        //<div class="contact__info-block"><h3>Mysore Office</h3><p>${c.address_mysore.replace(/\n/g, '<br>')}</p></div>
         // Form action
         if (s.form.formspree_id) {
             document.getElementById('contactForm').action = `https://formspree.io/f/${s.form.formspree_id}`;
