@@ -1,0 +1,20 @@
+{
+  "title": "Godrej Royale Woods",
+  "category": "residential",
+  "location": "NH-44, Devanahalli, Bangalore",
+  "status": "Completed",
+  "year": "2023",
+  "area": "1.3M sq. ft.",
+  "units": "13 Acres | 6 Towers |",
+  "image": "/images/uploads/banner_image.jpg",
+  "description": "Godrej Royale Woods is located on NH-44, about 5km from Bangalore International Airport.\n\nThe modern jungle, filled with over 1000 trees has all the amenities an arm’s length away.",
+  "gallery": [
+    "/images/uploads/Pool view-no-watermark.jpg",
+    "/images/uploads/Aerial View.jpg",
+    "/images/uploads/Center Landscape View.jpg",
+    "/images/uploads/Artboard Copy 2.png",
+    "/images/uploads/Artboard Copy.png",
+    "/images/uploads/Artboard.png"
+  ],
+  "order": 1
+}
