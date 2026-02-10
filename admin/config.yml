@@ -2,10 +2,8 @@ backend:
   name: github
   repo: sidharthb0/royalebuilders.com
   branch: main
-  base_url: https://sveltia-cms-auth.royalebuilders.com
-  # NOTE: We'll use Sveltia CMS Auth or a simple OAuth proxy.
-  # Simpler alternative: use the 'test-repo' backend for local testing,
-  # then switch to 'github' with an OAuth authenticator for production.
+  auth_type: pkce
+  app_id: Ov23li3UbHiyxkUlcsqr
 
 # Where uploaded media files go
 media_folder: "images/uploads"
