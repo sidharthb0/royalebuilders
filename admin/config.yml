@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: sidharthb0/royalebuilders.com
+  repo: sidharthb0/royalebuilders
   branch: main
   auth_type: pkce
   app_id: Ov23li3UbHiyxkUlcsqr
