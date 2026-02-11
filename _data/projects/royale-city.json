@@ -1,0 +1,15 @@
+{
+  "title": "Royale City",
+  "category": "land",
+  "location": "Hunsur Road, Mysore",
+  "status": "Completed",
+  "year": "2023",
+  "area": "9 Acres",
+  "units": "147 Sites",
+  "image": "/images/uploads/royalecity.png",
+  "description": "Residential layout with 30x40 and 30x50 sites in Ilavala Hobli, Hunsur Road, Mysore.",
+  "gallery": [
+    "/images/uploads/royalecity.png"
+  ],
+  "order": 4
+}
