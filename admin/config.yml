@@ -54,6 +54,7 @@ collections:
         name: "gallery"
         widget: "list"
         required: false
+        min: 0
         field: { label: "Image", name: "image", widget: "image" }
       - { label: "Display Order", name: "order", widget: "number", default: 10, hint: "Lower numbers appear first" }
 
