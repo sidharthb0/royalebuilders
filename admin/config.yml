@@ -46,7 +46,7 @@ collections:
           - { label: "Ongoing", value: "Ongoing" }
           - { label: "Completed", value: "Completed" }
       - { label: "Year", name: "year", widget: "string" }
-      - { label: "Built-Up Area", name: "area", widget: "string", hint: "e.g. 2,50,000 sq.ft." }
+      - { label: "Developed Area", name: "area", widget: "string", hint: "e.g. 2,50,000 sq.ft." }
       - { label: "Units / Scale", name: "units", widget: "string", hint: "e.g. 120 Units, 60 Villas" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Description", name: "description", widget: "text" }
